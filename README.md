@@ -18,7 +18,7 @@ Personally I find it easier to have such a light weight container, I even use sq
 This is the fastest option, you can use Sqlite as a DB
 
 ```
-docker run --name mywiki -d -p 10000:10000 steadyops/docker-pagekit
+docker run --name pagekit -d -p 10000:10000 steadyops/docker-pagekit
 ```
 
 ### using docker compose

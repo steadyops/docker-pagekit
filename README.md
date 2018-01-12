@@ -1,9 +1,15 @@
 # Pagekit CMS Docker image
-Docker image for Pagekit CMS
+Docker image for Pagekit CMS. Based on php:7.2.1-cli-alpine3.7
 
-Based on php:7.2.1-cli-alpine3.7
+# Note
 
-## TO BE USED IN DEVELOPMENT MODE ONLY!!
+### TO BE USED IN DEVELOPMENT MODE ONLY!!
+
+This is a minimal image for development, it uses php's built-in server on port 10000. The image size is less than 95 MB.
+
+Everytime a container is newly created you will have go through Pagekit set-up wizard (map config.php to container to avoid this)
+
+Personally I find it easier to have such a light weight container, I even use sqlite only for development.
 
 # How to use
 

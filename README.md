@@ -3,7 +3,7 @@ Docker image for Pagekit CMS
 
 Based on php:7.2.1-cli-alpine3.7
 
-## Note TO BE USED IN DEVELOPMENT MODE ONLY!!
+## TO BE USED IN DEVELOPMENT MODE ONLY!!
 
 # How to use
 
